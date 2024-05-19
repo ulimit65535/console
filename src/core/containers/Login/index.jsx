@@ -62,7 +62,7 @@ export default class Login extends Component {
     errorCount: 0,
     showKS: false, // 默认显示LDAP登录页
     currentServer: {
-      title: 'LDAP 用户名', // 替换为实际的LDAP服务器信息
+      title: 'LDAP', // 替换为实际的LDAP服务器信息
       type: 'LDAPIdentityProvider',
       endSessionURL: '', // 如果有注销URL，请填写
     },
