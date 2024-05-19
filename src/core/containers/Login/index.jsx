@@ -61,7 +61,11 @@ export default class Login extends Component {
     isSubmmiting: false,
     errorCount: 0,
     showKS: false, // 默认显示LDAP登录页
-    currentServer: {},
+    currentServer: {
+      title: 'LDAP 用户名', // 替换为实际的LDAP服务器信息
+      type: 'LDAPIdentityProvider',
+      endSessionURL: '', // 如果有注销URL，请填写
+    },
   }
 
   handleOAuthLogin = server => e => {
