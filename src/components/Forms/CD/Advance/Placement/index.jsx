@@ -74,7 +74,7 @@ export default class Placement extends Component {
           server: item.server,
         }
       })
-      .filter(i => i.value === 'in-cluster')
+      .filter(i => i.value !== 'in-cluster')
   }
 
   @computed
