@@ -60,7 +60,7 @@ export default class Login extends Component {
     formData: {},
     isSubmmiting: false,
     errorCount: 0,
-    showKS: true,
+    showKS: false, // 默认显示LDAP登录页
     currentServer: {},
   }
 
